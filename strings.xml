@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FlippyFish</string>
+    <color name="blue">#0000FF</color>
+    <color name="white">#FFFFFF3</color>
+</resources>
