@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background= "#0211FF"
+    android:background= "@drawable/voodoo_cactus_underwater"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -11,10 +11,9 @@
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="230dp"
         app:srcCompat="@drawable/fish" />
 
     <Button
@@ -38,10 +37,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/button"
+
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-85dp"
+
         android:layout_marginTop="55dp"
+
+        android:layout_centerHorizontal="true"
         android:text="FLIPPY FISH"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
